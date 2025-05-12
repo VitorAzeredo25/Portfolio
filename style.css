@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: rgb(42, 15, 23);
+    color: white;
+  }
+ 
+
+  .container {
+    display: flex;
+    height: 100vh;
+  }
+  
+
+  header {
+    width: 650px;
+    padding-left: 100px;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  header h1 {
+    font-size: 65px;
+    font-family: "Funnel Display", sans-serif;
+  }
+
+  header h2{
+    font-size: 22px;
+    font-weight: lighter;
+    padding-left: 5px;
+  }
+
+
+  
+  /* Menu de navegação */
+  header nav ul {
+    list-style: none;
+    padding: 0;
+    padding-top: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: monospace;
+  }
+  
+  header nav ul li {
+    margin: 10px 0;
+  }
+  
+  header nav li a {
+    color: #94a3b8;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  header nav li a:hover {
+    color: #ffff;
+  }
+
+  .ic_l{
+    padding-top: 200px;
+  }
+  .icones {
+    color: #94a3b8;
+    text-decoration: none;
+    font-size: 30px;
+    padding-right: 15px;
+    transition: color 0.3s;
+  }
+
+  .icones:hover{
+    color: #ffff;
+  }
+  
+  /* Estilo do conteúdo principal */
+  main {
+    flex: 1;
+    padding: 40px;
+    overflow-y: auto;
+  }
+
+.textos {
+  font-family: "Funnel Display", sans-serif;
+  color: rgb(245, 245, 245);
+  font-size: larger;
+  line-height: 27px;
+}
+  
+.abt {
+  padding-right: 150px;
+  padding-top: 100px;
+  }
+
+.mb_p {
+  margin-bottom: 1.5em;
+}
+
+.titulos {
+  margin: 0;
+}
+
+.experience {
+  padding-right: 150px;
+  padding-top: 100px;
+}
+
+.boxx {
+  background-color: #FFFFFF00;
+  transition: background-color 0.5s;
+  padding: 5px;
+}
+
+.boxx:hover {
+  background-color: rgba(128, 128, 128, 0.2) ;
+  border-radius: 5px;
+}
+
+.skills {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+}
+
+.skills li {
+  background-color: rgba(0, 128, 0, 0.325);
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+}
+
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #555; 
+  border-radius: 10px;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #555 #000;
+}

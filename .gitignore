@@ -1,0 +1,25 @@
+# Node modules
+node_modules/
+
+# Logs
+*.log
+
+# Dependências do sistema
+.DS_Store   # para sistemas macOS
+Thumbs.db   # para sistemas Windows
+
+# Arquivos de build ou distribuição
+dist/
+build/
+
+# Arquivos de configuração do ambiente
+.env
+
+# IDEs e editores de texto
+.vscode/
+.idea/
+*.swp  # Arquivos temporários de editores como Vim
+
+# Outras configurações locais
+*.bak
+*.tmp
