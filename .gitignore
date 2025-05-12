@@ -1,3 +1,7 @@
+# Instruções de Git
+#Sempre que fizer alterações - git add .   -   git commit -m "Descrição do que foi feito"   -   git push
+
+
 # Node modules
 node_modules/
 

@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 body, html {
     margin: 0;
     padding: 0;
     height: 100%;
-    font-family: Arial, sans-serif;
+    font-family: "Inter", sans-serif;
     background-color: rgb(42, 15, 23);
-    color: white;
+    color: #F5F5F5;
   }
  
 
@@ -15,6 +15,8 @@ body, html {
     height: 100vh;
   }
   
+
+
 
   header {
     width: 650px;
@@ -28,7 +30,6 @@ body, html {
 
   header h1 {
     font-size: 65px;
-    font-family: "Funnel Display", sans-serif;
   }
 
   header h2{
@@ -37,9 +38,6 @@ body, html {
     padding-left: 5px;
   }
 
-
-  
-  /* Menu de navegação */
   header nav ul {
     list-style: none;
     padding: 0;
@@ -60,7 +58,7 @@ body, html {
   }
   
   header nav li a:hover {
-    color: #ffff;
+    color: #F5F5F5;
   }
 
   .ic_l{
@@ -75,27 +73,34 @@ body, html {
   }
 
   .icones:hover{
-    color: #ffff;
+    color: #f5f5f5;
   }
   
-  /* Estilo do conteúdo principal */
+
+
+
   main {
     flex: 1;
     padding: 40px;
     overflow-y: auto;
   }
 
+  .abt {
+    padding: 100px 150px 100px 20px;
+  }
+
+
+
+
+/* Texts and Titles */
 .textos {
-  font-family: "Funnel Display", sans-serif;
-  color: rgb(245, 245, 245);
   font-size: larger;
   line-height: 27px;
 }
-  
-.abt {
-  padding-right: 150px;
-  padding-top: 100px;
-  }
+
+.textosmin{
+  font-size: medium;
+}
 
 .mb_p {
   margin-bottom: 1.5em;
@@ -105,35 +110,63 @@ body, html {
   margin: 0;
 }
 
+.subtitulos{
+  margin: 0;
+  color: #BCAAB5;
+}
+
+
+
+
+
+
 .experience {
   padding-right: 150px;
-  padding-top: 100px;
 }
 
-.boxx {
-  background-color: #FFFFFF00;
-  transition: background-color 0.5s;
-  padding: 5px;
+.experience-card {
+  padding: 1.5rem;
+  border-radius: 12px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
-.boxx:hover {
-  background-color: rgba(128, 128, 128, 0.2) ;
-  border-radius: 5px;
+.experience-card:hover {
+  background-color: rgba(255, 255, 255, 0.04);
+  transform: translateY(-4px);
 }
 
-.skills {
-  list-style: none;
+.textosmin {
+  color: #e4e4e7;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.tag-container {
   display: flex;
-  gap: 1em;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
 }
 
-.skills li {
-  background-color: rgba(0, 128, 0, 0.325);
-  padding: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-radius: 10px;
+.tag {
+  background-color: #3a1f2a;
+  color: #e8dce3;
+  padding: 0.4em 0.9em;
+  border-radius: 9999px;
+  font-size: 0.8rem;
+  border: 1px solid #5C2B3B;
+  transition: background-color 0.3s ease;
 }
+
+.tag:hover {
+  background-color: #5C2B3B;
+}
+
+
+
+
+
+
 
 
 /* Scrollbar */
