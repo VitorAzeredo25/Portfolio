@@ -5,8 +5,8 @@ body, html {
     padding: 0;
     height: 100%;
     font-family: "Inter", sans-serif;
-    background-color: rgb(42, 15, 23);
-    color: #F5F5F5;
+    background-color: #2A1B14;
+    color: #F4EDE4;
   }
  
 
@@ -52,28 +52,32 @@ body, html {
   }
   
   header nav li a {
-    color: #94a3b8;
+    color: #BCAAA4;
     text-decoration: none;
-    transition: color 0.3s;
+    transition: transform 0.3s ease, color 0.3s ease;
+    display: inline-block;
   }
   
   header nav li a:hover {
-    color: #F5F5F5;
+    color: #F4EDE4;
+    transform: translateX(4px);
   }
 
-  .ic_l{
+  .icon-list{
     padding-top: 200px;
   }
   .icones {
-    color: #94a3b8;
+    color: #BCAAA4;
     text-decoration: none;
     font-size: 30px;
     padding-right: 15px;
-    transition: color 0.3s;
+    transition: transform 0.3s ease, color 0.3s ease;
+    display: inline-block;
   }
 
   .icones:hover{
-    color: #f5f5f5;
+    color: #F4EDE4;
+    transform: translateY(-4px);
   }
   
 
@@ -85,7 +89,7 @@ body, html {
     overflow-y: auto;
   }
 
-  .abt {
+  .about {
     padding: 100px 150px 100px 20px;
   }
 
@@ -102,7 +106,7 @@ body, html {
   font-size: medium;
 }
 
-.mb_p {
+.marginb_p {
   margin-bottom: 1.5em;
 }
 
@@ -131,12 +135,12 @@ body, html {
 }
 
 .experience-card:hover {
-  background-color: rgba(255, 255, 255, 0.04);
+  background-color: rgba(244, 237, 228, 0.05);
   transform: translateY(-4px);
 }
 
 .textosmin {
-  color: #e4e4e7;
+  color: #e6e0d7;
   font-size: 0.95rem;
   line-height: 1.6;
 }
@@ -149,17 +153,13 @@ body, html {
 }
 
 .tag {
-  background-color: #3a1f2a;
-  color: #e8dce3;
+  background-color: #5A3E36;
+  color: #F2E1D9;
   padding: 0.4em 0.9em;
   border-radius: 9999px;
   font-size: 0.8rem;
-  border: 1px solid #5C2B3B;
+  border: 1px solid #7D5A50;
   transition: background-color 0.3s ease;
-}
-
-.tag:hover {
-  background-color: #5C2B3B;
 }
 
 
